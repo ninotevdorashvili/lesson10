@@ -1,0 +1,78 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@media (max-width: 1133px) {
+    .section2-container {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .text-block {
+        margin-bottom: 50px;
+        max-width: 350px;
+        width: 100%;
+        text-align: center;
+    }
+}
+@media (max-width: 885px) {
+    .image-block {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;  
+    }
+    .block:nth-child(2) {
+    margin-left: 31px;
+    margin-right: 0;
+    }
+    .block:nth-child(3),
+    .block:nth-child(5) {
+        margin-right: 31px;
+        margin-left: 0;
+    }
+}
+@media (max-width: 880px) {
+    .burger-bar {
+        display: block;
+    }
+    .navigation {
+        display: none;
+    }
+}
+@media (max-width: 585px) {
+    .block:nth-child(2) {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .block:nth-child(3),
+    .block:nth-child(5) {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .image-block {
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    }
+}
+@media (max-width: 555px) {
+    .block {
+        width: 40%;
+    }
+    .block img {
+        width: 100%;
+    }
+}
+@media (max-width: 395px) {
+    header {
+        padding-left: 60px;
+        padding-right: 70px;
+    }
+}
+@media (max-width: 340px) {
+    .block {
+        width: 70%;
+    }
+}
